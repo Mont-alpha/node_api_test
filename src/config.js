@@ -1,1 +1,3 @@
-export const PORT = 3000;
+const portNumber = process.env.PORT ?? 3000
+
+export const PORT = portNumber
